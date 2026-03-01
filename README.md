@@ -18,7 +18,7 @@ Add to your OpenCode config (`opencode.json` or `.opencode/config.json`):
 
 ```json
 {
-  "plugins": ["openrtk"]
+  "plugin": ["openrtk"]
 }
 ```
 
