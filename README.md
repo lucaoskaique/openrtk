@@ -14,11 +14,17 @@ cargo install rtk
 
 ## Installation
 
-Add to your OpenCode config (`opencode.json` or `.opencode/config.json`):
+Install via npm:
+
+```bash
+npm install openrtk
+```
+
+Then add to your OpenCode config (`opencode.json` or `.opencode/config.json`):
 
 ```json
 {
-  "plugin": ["openrtk"]
+  "plugins": ["openrtk"]
 }
 ```
 
@@ -56,7 +62,8 @@ Copy `opencode.md` into your project or user config to teach the model about `rt
 ## Development
 
 ```bash
-bun test          # run tests
+npm run build     # build the plugin
+npm test          # run tests
 ```
 
 ## License
